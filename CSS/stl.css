@@ -1,0 +1,449 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Nav Bar */
+#nav{
+    display: flex;
+     justify-content: space-between;
+     background-color: black;
+     width: 100%;
+     height: 40px;
+     
+}
+.nav ul{
+    padding-right: 10px;
+    display: flex;
+   float: right;
+     
+}
+.nav ul li{
+    list-style: none;
+
+}
+.nav ul li a{
+    color: white;
+    display: block;
+     padding: 10px;
+    text-decoration: none;
+}
+
+
+/* NAVBAR CSS */
+.bg-img{
+    background-image: url('https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://spanidea.com/wp-content/uploads/2015/11/home-banner-11-scaled.jpg');
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#navbar{
+    font-family: 'Raleway', sans-serif;
+    font-family: "Trebuchet MS";
+   display: flex;
+    text-align: center;
+}
+
+#logo{
+    padding-top: 10px;
+    margin: 20px 35px;
+}
+#logo img{
+    height: 40px;
+    width: 250px;
+}
+#navbar ul{
+    display: flex;
+    padding-top: 30px;
+     padding-left: 200px;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    font-size: 15px;
+    color: white;
+    display: block;
+    padding: 3px 20px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(34, 120, 212);
+}
+#navbar ul li i{
+    font-size: 30px;
+    color: white;
+}
+
+/* count */
+ 
+.cont h1{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    height: 68px;
+    width: 660px;
+    margin-left: 200px;
+    margin-top: 210px;
+    font-size: 33;
+    font-size: 32px;
+    font-family: "Trebuchet MS";
+    line-height: 34px;
+    letter-spacing: 0px;
+}
+.cont p{
+    color: white;
+    
+    font-weight: 700;
+     
+    height: 76px;
+    margin-left: 200px;
+    width: 650px;
+    margin-top: 35px;
+    font-size: 18px;
+    font-family: Verdana;
+    line-height: 26px;
+    letter-spacing: 0px;
+}
+
+
+
+/* MD */
+.md-1{
+     
+    padding-left: 210px;
+    padding-top: 50px;
+}
+.md p{
+    width: 900px;
+    padding-left: 210px;
+    padding-top: 10px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+/* Image */
+ .images{
+    margin-left: 180px;
+    
+ }
+ .images img{
+    height: 262px;
+    width: 350px;
+    min-width: 100%;
+    min-width: auto;
+    position: relative;
+    padding: 28px 28px 28px 28px;
+
+ }
+ .images img:hover{
+    opacity: 0.18;
+    color: transparent;
+
+ }
+
+
+ /* Focus Area */
+.focus{
+    background-color: rgb(198, 194, 189);
+    padding-top: 20px;
+    padding-left: 190px;
+}
+ .focus h1{
+    padding-left: 15px;
+    padding-top: 50px;
+    font-size: 30px;
+ }
+ .focus img{
+    padding-left: 210px;
+    height: 262px;
+    width: 350px;
+    min-width: 100%;
+    min-width: auto;
+    position: relative;
+    padding: 28px 28px 28px 28px;
+ }
+ .focus img:hover{
+    opacity: 0.18;
+    color: transparent;
+
+ }
+
+
+
+
+ /* Join Us Team */
+
+ .lm{
+    background-image:url(https://spanidea.com/wp-content/uploads/2021/07/careers-2.jpg?id=6586) !important;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+ }
+ .js{
+    width: 800px;
+ }
+ .js h1{
+    color: white;
+    padding-top: 150px;
+    padding-left: 150px;
+ }
+ .js p{
+    color: white;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-top: 10px;
+ }
+
+ .btn{
+    height: 40px;
+    width: 80ox;
+    border: 2px solid gray;
+    background-color:  transparent;
+    color: white;
+    float: right;
+      margin-right: 250px;
+       
+ }
+
+ /* Industries */
+ .ind{
+    background-image: url(https://spanidea.com/wp-content/uploads/2021/07/Untitled-1.gif?id=6485) !important;
+    height: 620px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+ }
+ .pr{
+    
+    width: 46%;
+    padding-top: 100px;
+    padding-left: 100px;
+    box-sizing: border-box;
+ }
+ .pr h1{
+    color: white;
+     padding-top: 50px;
+     margin-left: 80px;
+ }
+ .pr p{
+    font-size: 20px;
+    color: white;
+    margin-left: 80px;
+    padding-top: 10px;
+    width: 490px;
+ }
+
+ .box{
+     
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+    float: right;
+ }
+ .box img {
+    height: 120px;
+    width: 120px;
+ }
+ .box1{
+    padding: 5px;
+    margin: 5px;
+    float: right;
+    position:relative;
+    top:-310px;
+    margin-right: 250px;
+
+ }
+ .box2{
+    padding: 5px;
+    margin: 20px;
+    float: right;
+    position:relative;
+    top:-190px;
+    margin-right: -435px;
+
+ }
+ .box3{
+    padding: 5px;
+    margin: 25px;
+    float: right;
+    position:relative;
+    top:-60px;
+    margin-right: -451px;
+
+ }
+ .box img:hover{
+    opacity: 0.18;
+    color: transparent;
+
+ }
+
+
+ /* Take Your Idea */
+
+ .td{
+    height: 100px;
+  /*  border: 2px solid black; */
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    width: 1149px;
+ }
+ .pg{
+   /* border: 2px solid red; */
+    width: 800px;
+    display: flex;
+    align-items:center;
+ }
+ .pg p{
+    font-size: 20px;
+ }
+  /* .pg h1{
+    color: black;
+    font-size: 25px;
+    margin: 20px;
+    padding-top: 50px;
+    padding-left: 130px;
+    width: 50%;
+  } */
+  /* .pg{
+    width: 50px;} */
+
+  .lt{
+    /* top:32px; */
+    float: right;
+    color: black;
+  /*  border: 2px solid blue; */
+    width: 200px;
+    
+    display: flex;
+    align-items:center;
+  }
+
+  .lts{
+    text-align: center;
+    border: 2px solid  black;
+    width: 200px;
+    height: 53px;
+  }
+  .lts:hover{
+    background-color: rgba(14, 242, 204, 0.964);
+    color: white;
+  }
+
+
+  /* Footer */
+  .fotter{
+    padding-top: 50px;
+    height: 360px;
+    background-color: #434343;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ftr{
+   
+     
+    height: 200px;
+    width: 400px;
+    display: flex;
+    position: relative;
+  }
+
+  .ftr-1 img{
+    height: 50px;
+    width: 200px;
+    margin-left: 50px;
+    padding-top: 10px;
+  }
+  .ftr-1 p{
+    color: white;
+    margin-left: 50px;
+    padding-top: 5px;
+  }
+  
+  .ftr-2 p{
+    color: white;
+    margin-left: 50px;
+    padding-top: 5px;
+
+  }
+  .ftr-2 h1{
+    color: white;
+    font-size: 25px;
+    margin-left: 50px;
+  }
+.ftr-3 p{
+    color: white;
+    margin-left: 50px;
+    padding-top: 5px;
+}
+.ftr-3 h1{
+    color: white;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.ftr-4 p{
+    color: white;
+    margin-left: 50px;
+     
+}
+.ftr-4 h1{
+    color: white;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+#ftr-1{
+    border-right: 2px solid grey;
+}
+#ftr-2{
+    border-left: 2px solid gray;
+    border-right: 2px solid grey;
+
+}
+#ftr-3{
+    border-left: 2px solid gray;
+    border-right: 2px solid grey;
+}
+#ftr-4{
+    border-right: 2px solid grey;
+}
+
+.tft h3{
+    background-color: #434343;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.tftr{
+    background-color: #434343;
+    color: skyblue;
+    font-size: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.end{
+    background-color: #434343;
+    height: 100px;
+}
+
+.iconsp{
+    display: flex;
+    padding-left: 50px;
+     
+}
+
+.sp{
+    border: 1px solid rgb(19, 224, 186);
+    width: 40px;
+    height: 40px;
+    
+}
